@@ -1,8 +1,8 @@
 import React from 'react';
 import "../App.css";
 import service1 from "../images/img1.jpg";
-import service2 from "../images/img.jfif";
-import service3 from "../images/img5.jfif";
+import service2 from "../images/img.jpg";
+import service3 from "../images/img5.jpg";
 const Services = () => {
     return (
         <section className="section " >

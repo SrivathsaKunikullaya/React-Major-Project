@@ -1,8 +1,8 @@
 import React from 'react';
 import "../App.css";
-import product1 from "../images/img4.jfif";
-import product2 from "../images/img2.jfif";
-import product3 from "../images/img3.jfif";
+import product1 from "../images/img4.jpg";
+import product2 from "../images/img2.jpg";
+import product3 from "../images/img3.jpg";
 const Products = () => {
     return (
         <section className="section " >
