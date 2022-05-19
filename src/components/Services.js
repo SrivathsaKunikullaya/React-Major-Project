@@ -2,8 +2,12 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div>
-            <h1>Services</h1>
+        <div className="container">
+            <div className="card mt-4">
+                <div className="card-body">
+                    <h2>Services</h2>
+                </div>
+            </div>
         </div>
     );
 };

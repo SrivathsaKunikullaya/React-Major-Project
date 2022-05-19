@@ -2,8 +2,12 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div>
-            <h1>Mail us on feedback@geeksforgeeks.org</h1>
+        <div className="container">
+            <div className="card mt-4">
+                <div className="card-body">
+                    <h2>Contact us</h2>
+                </div>
+            </div>
         </div>
     );
 };
