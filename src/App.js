@@ -19,7 +19,7 @@ function App() {
               <Navbar.Collapse>
                 <Navbar.Brand as={Link} to="./Home"> <img src={logo} width="40px" height="40px" alt="LOGO" />{' '}
                 </Navbar.Brand>
-                <Nav className="me-auto">
+                <Nav className="ms-auto ">
                   <Nav.Link as={Link} to="./Home">Home</Nav.Link>
                   <Nav.Link as={Link} to="./Services">Services</Nav.Link>
                   <Nav.Link as={Link} to="./Products">Products</Nav.Link>
