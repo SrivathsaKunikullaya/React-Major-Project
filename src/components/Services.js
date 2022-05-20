@@ -13,41 +13,41 @@ const Services = () => {
                     </div >
                     <div className="col-md-4">
                         <div className="card shadow">
-                                <img src={service1} className="w-100 border-bottom" alt="services"/>
+                            <img src={service1} className="w-100 border-bottom" style={{ height: 275, weight: 183 }} alt="services" />
                             <div className="card-body">
                                 <h6>service 1</h6>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div className="col-md-4">
                         <div className="card shadow">
-                                <img src={service2} className="w-100 border-bottom" alt="services"/>
+                            <img src={service2} className="w-100 border-bottom" style={{ height: 275, weight: 183 }} alt="services" />
                             <div className="card-body">
                                 <h6>service 2</h6>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div className="col-md-4">
                         <div className="card shadow">
-                                <img src={service3} className="w-100 border-bottom" alt="services"/>
+                            <img src={service3} className="w-100 border-bottom" style={{ height: 275, weight: 183 }} alt="services" />
                             <div className="card-body">
                                 <h6>service 3</h6>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
                             </div>
                         </div>
-                        
+
                     </div>
-                    
+
                 </div >
             </div >
         </section >

@@ -13,7 +13,7 @@ const Products = () => {
                     </div >
                     <div className="col-md-4">
                         <div className="card shadow">
-                            <img src={product1} className="w-100 border-bottom" alt="services" />
+                            <img src={product1} className="w-100 border-bottom" style={{ height: 275, weight: 183 }} alt="services" />
                             <div className="card-body">
                                 <h6>Grocery</h6>
                                 <p>
@@ -25,7 +25,7 @@ const Products = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="card shadow">
-                            <img src={product2} className="w-100 border-bottom" alt="services" />
+                            <img src={product2} className="w-100 border-bottom" style={{ height: 275, weight: 183 }} alt="services" />
                             <div className="card-body">
                                 <h6>Electronics</h6>
                                 <p>
@@ -37,7 +37,7 @@ const Products = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="card shadow">
-                            <img src={product3} className="w-100 border-bottom" alt="services" />
+                            <img src={product3} className="w-100 border-bottom" style={{ height: 275, weight: 183 }} alt="services" />
                             <div className="card-body">
                                 <h6>Cosmetics</h6>
                                 <p>
