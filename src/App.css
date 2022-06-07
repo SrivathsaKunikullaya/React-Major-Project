@@ -19,3 +19,11 @@ body
   
   box-shadow: 0 8px 6px -6px black;
 }
+.footer a{
+  color:white;
+  text-decoration:none !important;
+  cursor:pointer;
+}
+.footer a:hover{
+  color:grey;
+}

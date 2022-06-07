@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Footer from "./Footer"
 const Contact = () => {
     return (
         <div>
@@ -19,10 +19,10 @@ const Contact = () => {
                             <div className="row">
                                 <div className="col-md-6 border-end">
                                     <h6>Contact Form</h6>
-                                    <hr/>
+                                    <hr />
                                     <div className="form-group">
                                         <label claaName="mb-1">Name</label>
-                                        <input type="text" className="form-control" placeholder="Enter Full Name"  />
+                                        <input type="text" className="form-control" placeholder="Enter Full Name" />
                                     </div>
                                     <div className="form-group">
                                         <label claaName="mb-1">Phone Number</label>
@@ -57,6 +57,7 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
     );
 };

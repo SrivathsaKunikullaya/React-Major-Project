@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import img1 from "../images/img9.jpg"
+import Footer from "./Footer"
 const About = () => {
     return (
         <div>
@@ -31,6 +32,7 @@ const About = () => {
                     </p>
                 </div>
             </section >
+            <Footer />
         </div>
     );
 };

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./components/Fontawesomeicons";
 import { BrowserRouter as Router, Routes, Route, Link }
   from 'react-router-dom';
 import { Navbar, Container, Nav } from "react-bootstrap"
