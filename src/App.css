@@ -12,3 +12,10 @@ body
 .home-p{
   color: #fff;
 }
+.bg-c-dark{
+  background:#7550ba;
+}
+.border-shadow{
+  
+  box-shadow: 0 8px 6px -6px black;
+}

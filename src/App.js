@@ -14,7 +14,7 @@ function App() {
       <Router>
         <div className="App">
           <>
-            <Navbar bg="dark" variant="dark" sticky="top" expand="sm" collapseOnSelect>
+            <Navbar bg="dark" variant="dark" sticky="top" expand="sm" collapseOnSelect className="border-shadow">
               <Navbar.Toggle className="coloring" />
               <Container>
                 <Navbar.Collapse>

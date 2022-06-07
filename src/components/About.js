@@ -19,8 +19,7 @@ const About = () => {
                     <h5 className="main-heading">Srivathsa Kunikullaya H</h5>
                     <img src={img1} class="rounded float-end shadow " alt="..." />
                     <p className="home-p">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
+                        MVJ College of Engineering was established in 1982 as the flagship institution of the Venkatesha Education Society to impart education in engineering, management, and beyond. MVJCE’s 15-acre campus in Whitefield, Bangalore, bears state-of-the-art infrastructure that creates an environment for progressive learning and development.                    </p>
                     <p className="home-p">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eros ex, sollicitudin ut odio quis, laoreet sodales sem. Nunc maximus a diam vitae aliquet. Etiam vel ipsum id libero iaculis eleifend at et sapien. Pellentesque cursus lacus augue, et fermentum diam fermentum at. Vivamus sapien magna, aliquet sit amet feugiat sit amet, eleifend et nisl. Ut molestie vehicula sapien luctus pulvinar. Nullam dictum scelerisque sem, sit amet pellentesque libero luctus et. Proin hendrerit sollicitudin orci. Nam ac purus rutrum sapien euismod pretium non sed lectus. Nunc sodales dictum volutpat. In bibendum urna neque, vel tincidunt quam laoreet in.
 

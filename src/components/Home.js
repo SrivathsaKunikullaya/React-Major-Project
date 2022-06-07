@@ -1,6 +1,9 @@
 import React from 'react';
 import "../App.css"
+import { Link } from "react-router-dom"
+import Vision from './Vision';
 import Slider from './Slider'
+import Footer from './Footer'
 const Home = () => {
     return (
         <div>
@@ -9,16 +12,25 @@ const Home = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h3 className="main-heading">ReactJS Minor Project</h3>
+                            <h3 className="main-heading">Welcome to MVJ College of Engineering</h3>
                             <div className="underline mx-auto"></div>
                             <br />
                             <p className="home-p">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                4 decades of Excellence in Engineering Education.
+                                MVJCE has state-of-the-art infrastructure, creating
+                                an environment for progressive learning and development.
+                                With around 23,500 people graduating till date, MVJ has
+                                become a preferred college for students aspiring to pursue
+                                their Engineering and Management degrees.
                             </p>
+                            <Link to="/About" className="btn btn-info">Read more</Link>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <Vision />
+            <Footer />
         </div>
     );
 };
