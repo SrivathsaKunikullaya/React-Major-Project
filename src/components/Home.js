@@ -1,7 +1,7 @@
 import React from 'react';
 import "../App.css"
 import { Link } from "react-router-dom"
-import Vision from './Vision';
+import VMC from './VMC';
 import Slider from './Slider'
 import Footer from './Footer'
 const Home = () => {
@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <Vision />
+            <VMC />
             <Footer />
         </div>
     );
