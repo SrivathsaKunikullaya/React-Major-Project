@@ -5,10 +5,10 @@ import { BrowserRouter as Router, Routes, Route, Link }
   from 'react-router-dom';
 import { Navbar, Container, Nav } from "react-bootstrap"
 import Home from './components/Home';
-import Services from './components/Services';
-import Products from './components/Products';
 import About from './components/About';
 import Contact from './components/Contact';
+import Programmes from './components/Programmes';
+import Admission from './components/Admission';
 function App() {
   return (
     <div>
@@ -23,9 +23,9 @@ function App() {
                   </Navbar.Brand>
                   <Nav className="ms-auto ">
                     <Nav.Link as={Link} to="./Home">Home</Nav.Link>
-                    <Nav.Link as={Link} to="./Services">Services</Nav.Link>
-                    <Nav.Link as={Link} to="./Products">Products</Nav.Link>
                     <Nav.Link as={Link} to="./About">About</Nav.Link>
+                    <Nav.Link as={Link} to="./Programmes">Programmes</Nav.Link>
+                    <Nav.Link as={Link} to="./Admission">Admissions</Nav.Link>
                     <Nav.Link as={Link} to="./Contact">Contact</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
@@ -40,9 +40,9 @@ function App() {
               <Route exact path='/' element={<Home />} />
               <Route exact path='/Home' element={<Home />} />
               <Route path='/About' element={<About />} />
+              <Route path='/Programmes' element={<Programmes />} />
+              <Route path='/Admission' element={<Admission />} />
               <Route path='/Contact' element={<Contact />} />
-              <Route path='/Services' element={<Services />} />
-              <Route path='/Products' element={<Products />} />
             </Routes>
           </div>
         </div>

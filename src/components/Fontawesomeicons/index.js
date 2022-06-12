@@ -1,4 +1,4 @@
 import { library } from "@fortawesome/fontawesome-svg-core"
-import { faHouse, faLocationDot } from "@fortawesome/free-solid-svg-icons"
+import { faHouse, faLocationDot, faArrowRight, faAngleRight } from "@fortawesome/free-solid-svg-icons"
 
-library.add(faHouse, faLocationDot)
+library.add(faHouse, faLocationDot, faArrowRight, faAngleRight)

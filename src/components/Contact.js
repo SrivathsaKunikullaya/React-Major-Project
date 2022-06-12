@@ -1,5 +1,7 @@
 import React from 'react';
 import Footer from "./Footer"
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 const Contact = () => {
     return (
         <div>
@@ -20,25 +22,33 @@ const Contact = () => {
                                 <div className="col-md-6 border-end">
                                     <h6>Contact Form</h6>
                                     <hr />
-                                    <div className="form-group">
-                                        <label claaName="mb-1">Name</label>
-                                        <input type="text" className="form-control" placeholder="Enter Full Name" />
-                                    </div>
-                                    <div className="form-group">
-                                        <label claaName="mb-1">Phone Number</label>
-                                        <input type="tel" className="form-control" placeholder="Enter Phone Number" />
-                                    </div>
-                                    <div className="form-group">
-                                        <label claaName="mb-1">Email Address</label>
-                                        <input type="email" className="form-control" placeholder="Enter Email Address" />
-                                    </div>
-                                    <div className="form-group">
-                                        <label claaName="mb-1">Message</label>
-                                        <textarea rows="3" className="form-control" placeholder="Type your message"></textarea>
-                                    </div>
-                                    <div className="form-group py-3">
-                                        <button type="button" className="btn btn-primary shadow w-100">Send message</button>
-                                    </div>
+                                    <Form>
+                                        <Form.Group className="mb-3" controlId="formBasicName">
+                                            <Form.Label>Name</Form.Label>
+                                            <Form.Control type="text" required placeholder="Full Name" />
+                                        </Form.Group>
+                                        <Form.Group className="mb-3" controlId="formBasicPhone">
+                                            <Form.Label>Phone Number</Form.Label>
+                                            <Form.Control type="tel" required placeholder="Phone Number" />
+                                            <Form.Text className="text-muted">
+                                                We'll never share your phone number with anyone else.
+                                            </Form.Text>
+                                        </Form.Group>
+                                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                                            <Form.Label>Email address</Form.Label>
+                                            <Form.Control type="email" required placeholder="Enter email" />
+                                            <Form.Text className="text-muted">
+                                                We'll never share your email with anyone else.
+                                            </Form.Text>
+                                        </Form.Group>
+                                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                                            <Form.Label>Message</Form.Label>
+                                            <Form.Control as="textarea" required placeholder="Type your message" rows={3} />
+                                        </Form.Group>
+                                        <Button variant="primary" type="submit">
+                                            Submit
+                                        </Button>
+                                    </Form>
                                 </div>
                                 <div className="col-md-6">
                                     <h5>Address Information</h5>

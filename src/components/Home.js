@@ -23,7 +23,7 @@ const Home = () => {
                                 become a preferred college for students aspiring to pursue
                                 their Engineering and Management degrees.
                             </p>
-                            <Link to="/About" className="btn btn-info">Read more</Link>
+                            <Link to="/About" className="btn-etc"><span>Read More</span></Link>
                         </div>
                     </div>
                 </div>
