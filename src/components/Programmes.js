@@ -1,10 +1,10 @@
 import React from 'react';
 import "../App.css";
-
+import GoToTop from '../inc/GoToTop'
 import img10 from "../images/img10.jpg"
 import img11 from "../images/img11.jpg"
 import img12 from "../images/img12.jpg"
-import Footer from "./Footer"
+import Footer from "../inc/Footer"
 const Programmes = () => {
     return (
         <div>
@@ -102,6 +102,7 @@ const Programmes = () => {
 
             </section >
             <Footer />
+            <GoToTop />
         </div>
     );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
 import "../App.css"
+import GoToTop from '../inc/GoToTop'
 import { Link } from "react-router-dom"
-import VMC from './VMC';
-import Slider from './Slider'
-import Footer from './Footer'
+import VMC from '../inc/VMC';
+import Slider from '../inc/Slider'
+import Footer from '../inc/Footer'
 const Home = () => {
     return (
         <div>
@@ -31,6 +32,7 @@ const Home = () => {
 
             <VMC />
             <Footer />
+            <GoToTop />
         </div>
     );
 };

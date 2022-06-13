@@ -8,7 +8,20 @@ body
 }
 .main-heading {
   color: #fff;
+  animation: pop-in .8s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  opacity: 0;
 }
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .home-p{
   color: #fff;
   font-size: 20px;
@@ -65,7 +78,7 @@ body
   content: '»';
   position: absolute;
   opacity: 0;  
-  top: 14px;
+  top: 10px;
   right: -20px;
   transition: 0.5s;
 }
@@ -79,6 +92,46 @@ body
   opacity: 1;
   right: 10px;
 }
+.btn-cp {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.btn-cp{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-cp:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 10px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-cp:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.btn-cp:hover:after {
+  opacity: 1;
+  right: 10px;
+}
 
 a{
   text-decoration: none;
@@ -86,4 +139,12 @@ a{
 a:hover
 {
   color: #fff;
+}
+.cd{
+  background:#7A41B7;
+  
+}
+.about-card{
+  display:flex;
+  align-items: center;
 }

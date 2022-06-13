@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import Footer from "./Footer"
+import Footer from "../inc/Footer"
+import GoToTop from '../inc/GoToTop'
 const Admission = () => {
     return (
         <div>
@@ -85,6 +86,7 @@ const Admission = () => {
                 </div>
             </section>
             <Footer />
+            <GoToTop />
         </div>
     )
 }

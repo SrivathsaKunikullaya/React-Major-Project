@@ -12,7 +12,7 @@ import Admission from './components/Admission';
 function App() {
   return (
     <div>
-      <Router>
+      <Router >
         <div className="App">
           <>
             <Navbar bg="dark" variant="dark" sticky="top" expand="sm" collapseOnSelect className="border-shadow">

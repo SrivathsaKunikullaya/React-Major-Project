@@ -1,7 +1,8 @@
 import React from 'react';
-import Footer from "./Footer"
+import Footer from "../inc/Footer"
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import GoToTop from '../inc/GoToTop'
 const Contact = () => {
     return (
         <div>
@@ -68,6 +69,7 @@ const Contact = () => {
                 </div>
             </section>
             <Footer />
+            <GoToTop />
         </div>
     );
 };
